@@ -1,38 +1,33 @@
 # Econometrics Project
 
-An econometrics course project completed at Télécom Paris in November 2024 by Cyprien Braunwald and Iba Demesy. The notebook combines a cross-sectional analysis of the HPRICE2 housing dataset with time-series exercises using the `threecenturies_v2.3.xlsx` workbook.
+A Télécom Paris econometrics project combining cross-sectional housing analysis with historical time-series exercises.
 
-## What's inside
+## Context
 
-| File | Description |
-| --- | --- |
-| `Econometrics-project.ipynb` | Course questions, code and analysis |
-| `HPRICE2.raw` | HPRICE2 cross-sectional data |
-| `threecenturies_v2.3.xlsx` | Workbook used for the time-series section |
-| `Projet NOV 2024.docx` | Project brief |
+Télécom Paris econometrics course, November 2024. Authors: Cyprien Braunwald and Iba Demesy.
 
-## Methods
+## What it includes
 
-- Cross-sectional OLS regressions, coefficient significance tests and joint F-tests
-- Log transformations, heteroskedasticity analysis and weighted least squares
-- Augmented Dickey–Fuller stationarity tests, moving-average detrending, differencing, and ACF/PACF plots
-- Residual autocorrelation checks and feasible GLS with an AR(1) error structure
-- Lagged regressions, a Granger-causality F-test and Chow tests for coefficient stability
+- Cross-sectional OLS, coefficient and joint F-tests, log transformations, heteroskedasticity analysis and weighted least squares.
+- Time-series stationarity tests, moving-average detrending, differencing, ACF/PACF plots, AR(1) feasible GLS, Granger-causality and Chow tests.
 
 ## Tech stack
 
-Python, Jupyter, NumPy, pandas, Matplotlib, statsmodels and SciPy.
+Python, Jupyter, NumPy, pandas, Matplotlib, statsmodels, SciPy and openpyxl.
 
 ## How to run
 
-Install the notebook and analysis dependencies:
+Install the notebook dependencies:
 
 ```bash
 python -m pip install jupyter numpy pandas matplotlib statsmodels scipy openpyxl
 ```
 
-Open `Econometrics-project.ipynb` in Jupyter and run its cells in order. The notebook loads both datasets from GitHub raw URLs, so execution requires an internet connection; local copies of the data are also included in this repository.
+Start Jupyter from this folder, open `Econometrics-project.ipynb` and run its cells in order. It reads the included `HPRICE2.raw` and `threecenturies_v2.3.xlsx` files; no source-repository URL is required.
 
-## Authors and context
+## Folder contents
 
-Cyprien Braunwald and Iba Demesy, Télécom Paris econometrics course project, November 2024.
+- `Econometrics-project.ipynb` — course questions, analysis and results.
+- `HPRICE2.raw` — HPRICE2 cross-sectional data.
+- `threecenturies_v2.3.xlsx` — time-series workbook.
+- `Projet NOV 2024.docx` — course project brief.

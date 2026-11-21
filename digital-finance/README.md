@@ -1,19 +1,15 @@
 # MODS205 Digital Finance Project
 
-A 2024–2025 Digital Finance take-home project at Télécom Paris by Iba Demesy and Sernin Marette. The notebook discusses 2024 fintech trends and analyzes Accor and Orange stock data alongside the CAC 40 and a Treasury-bill reference series.
+A Télécom Paris take-home project discussing fintech trends and analyzing Accor and Orange market data against the CAC 40 and a Treasury-bill reference series.
 
-## What's inside
+## Context
 
-| File | Description |
-| --- | --- |
-| `mods205.ipynb` | Fintech trends discussion and financial-data analysis |
-| `MODS205.xlsx` | Course project workbook |
-| `Take home Digital finance 2024-2025 v1.doc` | Take-home assignment |
-| `AC.PA.csv`, `ORA.PA.csv` | Accor and Orange market data |
-| `^FCHI.csv` | CAC 40 market data |
-| `^IRX.csv` | Treasury-bill reference series |
+Télécom Paris MODS205 Digital Finance take-home, 2024–2025. Authors: Iba Demesy and Sernin Marette.
 
-The notebook covers market microstructure, risk management, and regulation and compliance. Its quantitative sections calculate returns and moving averages, compare the stocks with the CAC 40, examine a 50/50 portfolio and efficient frontier, estimate risk metrics and value at risk, and explore simple candlestick-pattern rules for Accor.
+## What it includes
+
+- A written discussion of fintech trends, market microstructure, risk management and regulation.
+- Stock-return and moving-average analysis, portfolio comparisons, risk metrics, value-at-risk estimates and simple Accor candlestick-pattern rules.
 
 ## Tech stack
 
@@ -27,8 +23,10 @@ Install the notebook dependencies:
 python -m pip install jupyter numpy pandas matplotlib mplfinance scipy seaborn
 ```
 
-Open `mods205.ipynb` in Jupyter. Before running, fix the data-loading cell: its checked-in `file_paths` mapping is malformed and points to GitHub page URLs. Use the included CSV files as local paths for `AC`, `ORA`, `Interest_US5W` (`^IRX.csv`) and `CAC40` (`^FCHI.csv`).
+Start Jupyter with this folder as its working directory and open `mods205.ipynb`. Its data-loading cell uses the four included CSV files as local paths.
 
-## Authors and context
+## Folder contents
 
-Iba Demesy and Sernin Marette, Télécom Paris MODS205 Digital Finance take-home, 2024–2025.
+- `mods205.ipynb` — fintech discussion and financial-data analysis.
+- `MODS205.xlsx` and `Take home Digital finance 2024-2025 v1.doc` — course materials.
+- `AC.PA.csv`, `ORA.PA.csv`, `^FCHI.csv` and `^IRX.csv` — market data.
