@@ -1,8 +1,8 @@
 # Télécom Paris Engineering Projects
 
-Engineering projects from Télécom Paris – Institut Polytechnique de Paris, 2023–2026
+Engineering projects from Télécom Paris – Institut Polytechnique de Paris, 2023–2026.
 
-| Project | Domain | Stack | link to folder |
+| Project | Domain | Stack | Folder |
 | --- | --- | --- | --- |
 | Robot car | Embedded systems and robotics | Python, Flask, OpenCV, PCA9685 | [robot-car](robot-car/) |
 | Factory simulator | Manufacturing and simulation | Java, Télécom Paris Canvas library | [factory-simulator](factory-simulator/) |
